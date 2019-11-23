@@ -22,12 +22,17 @@ hr.year_hr
 	width:40%;
 	margin:0px;
 }
+hr.year_hr_wteaser
+{
+	width:120%;
+	margin:0px;
+}
 table
 {
 	padding: 5px;
 }
 
-table.pub_table,td.pub_td1,td.pub_td2
+table.pub_table,td.pub_td2,td.pub_td1
 {
 	border-collapse: collapse;
 	border-bottom: 0px solid #9B9B9B;
@@ -38,10 +43,11 @@ table.pub_table,td.pub_td1,td.pub_td2
 }
 td.pub_td1
 {
-	width:100px;
+	width: 10%;
 }
 td.pub_td2
 {
+	width: 80%;
 }
 td.year_heading
 {
